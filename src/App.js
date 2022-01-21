@@ -9,9 +9,9 @@ const App =()=> {
     <div className="App">
         <div className="title">InCrement and Decrement</div>
         <div>
-          <button className="btn1" onClick={()=> dispatch(decrement()) }>Decrement</button>
+          <button className="btn1" onClick={()=> dispatch(decrement(5)) }>Decrement</button>
           <span>{value}</span>
-          <button className="btn2" onClick={()=> dispatch(increment()) }>Increment</button>
+          <button className="btn2" onClick={()=> dispatch(increment(10)) }>Increment</button>
         </div>
     </div>
   )
